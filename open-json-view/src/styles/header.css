@@ -1,0 +1,25 @@
+.Header {
+  background-color: #fff;
+  width: 100vw;
+  color: #000;
+  height: 5vh;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #242424;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+  .logo{
+    font-size: 1.2em;
+  }
+}
