@@ -97,4 +97,8 @@ footer{
     text-align: center;
     font-size: small;
   }
+
+  .input-border >  form > textarea {
+    height: 50%;
+  }
 }
